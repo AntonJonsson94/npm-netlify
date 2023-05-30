@@ -1,3 +1,9 @@
-const message = document.querySelector("#hej");
+const card = document.querySelector("#card");
 
-message.innerHTML = "Hejsan";
+function printMessage() {
+    const message = document.createElement("p");
+    message.innerText = "Hejsan";
+
+    card.append(message);
+}
+printMessage();
