@@ -1,8 +1,8 @@
 {
-  "name": "exampleone",
+  "name": "write-your-name",
   "version": "1.0.0",
-  "description": "Test package",
-  "main": "index.html",
+  "description": "Hello package",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
