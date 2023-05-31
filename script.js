@@ -1,9 +1,15 @@
 const card = document.querySelector("#card");
+const input = document.querySelector("#input");
+const button = document.querySelector("#submit");
 
 function printMessage() {
+    card.innerHTML = "";
     const message = document.createElement("p");
-    message.innerText = "Hejsan";
+    message.innerText = `Hej ${input.value}!`;
 
     card.append(message);
 }
-printMessage();
+
+button.addEventListener("click", () => {
+    printMessage();
+});
